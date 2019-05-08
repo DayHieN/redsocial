@@ -1,0 +1,50 @@
+#userDiv {
+    display: flex;
+    justify-content: center
+}
+#userinfoDiv {
+    background-color: lightseagreen;
+    padding:10px;
+    width:30%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.textarea {    
+    width: 40%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#msginputDiv {
+    display:flex;
+    justify-content: center;
+}
+
+#msglistDiv{
+    display:flex;
+    flex-direction: column; 
+    background-color: lightgreen;
+    width:20%;
+    padding: 10px;
+}
+#friendlistDiv {
+    display:flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    padding: 10px;
+    width:20%;
+}
+
+#lists {
+    display:flex;
+    justify-content: center;
+}
+
+.avatar {
+    border-radius:5px
+}
+#info {
+    display:flex;
+    align-content: center;
+}
