@@ -1,8 +1,19 @@
+.navbar {
+  display:flex;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom:15px;
+  border-radius: 10px;
+}
 .nav {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 .logo {
-    width:120px;
-    height:120px;
+    width: 144px;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

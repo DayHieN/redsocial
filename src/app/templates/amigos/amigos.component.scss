@@ -1,50 +1,61 @@
 #userDiv {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center;
+
 }
 #userinfoDiv {
-    background-color: lightseagreen;
-    padding:10px;
-    width:30%;
-    display:flex;
-    justify-content: flex-start;
+  background-color: white;
+  padding:10px;
+  width:30%;
+  display: flex;
+  align-content: center;
+  margin-top:5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
-.textarea {    
-    width: 40%;
-    padding: 3px;
-    box-sizing: border-box;
+.textarea {
+  width: 20%;
+  height: 20%;
+  padding: 3px;
+  box-sizing: border-box;
+  display: flex;
+  margin-left:-20%;
+  border-radius:10px;
 }
 
 #msginputDiv {
-    display:flex;
-    justify-content: center;
+  display:flex;
+  justify-content: center;
 }
 
 #msglistDiv{
-    display:flex;
-    flex-direction: column; 
-    background-color: lightgreen;
-    width:20%;
-    padding: 10px;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  width:20%;
+  padding: 10px;
+  border-radius:10px;
 }
 #friendlistDiv {
-    display:flex;
-    flex-direction: column;
-    background-color: lightcoral;
-    padding: 10px;
-    width:20%;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  width:20%;
+  border-radius:10px;
 }
 
 #lists {
-    display:flex;
-    justify-content: center;
+  display:flex;
+  justify-content: center;
 }
 
-.avatar {
-    border-radius:5px
-}
+
+
 #info {
-    display:flex;
-    align-content: center;
+  display:flex;
+  align-content: center;
 }

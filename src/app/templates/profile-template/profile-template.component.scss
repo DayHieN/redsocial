@@ -1,9 +1,9 @@
 
 #userDivp {
-
     margin-left: auto;
     margin-right: auto;
-    background-color: gold;
+    background-color:white;
+    border-radius: 10px;
     width: 40%;
 }
 #userDiv {
@@ -14,15 +14,19 @@
     width:240px;
     height:240px;
 }
-
-.rounded-circle {
-  display:flex;
-  justify-content: left;
+.img-fluid {
+    margin-top: 25px;
+    margin-left: -105%;
+    margin-right: 10px;
+    width:200px;
+    height:200px;
 }
 .h1 {
   display:flex;
   justify-content: center;
+  margin-top:40%;
   font-weight:bold;
+
 }
 
 
