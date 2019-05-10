@@ -10,6 +10,7 @@ import { EventosComponent } from './templates/eventos/eventos.component';
 import { HeaderComponent } from './templates/header/header.component';
 import { FooterComponent } from './templates/footer/footer.component';
 import { ProfileTemplateComponent } from './templates/profile-template/profile-template.component';
+import { MsglistComponent } from './components/msglist/msglist.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProfileTemplateComponent } from './templates/profile-template/profile-t
     EventosComponent,
     HeaderComponent,
     FooterComponent,
-    ProfileTemplateComponent
+    ProfileTemplateComponent,
+    MsglistComponent
   ],
   imports: [
     BrowserModule,

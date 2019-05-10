@@ -5,4 +5,5 @@ export class Users {
     nick: string;
     birthday: Date;
     startdate: Date;
+    img: string;
 }

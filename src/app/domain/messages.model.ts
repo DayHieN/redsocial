@@ -1,6 +1,8 @@
+import { Users } from './user.model';
+
 export class Messages {
     id: number;
-    owner: User;
+    owner: Users;
     content: string;
     publish: Date;
 }
