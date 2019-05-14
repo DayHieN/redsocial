@@ -8,11 +8,11 @@ import { HistoriasComponent } from './components/historias/historias.component';
 import { AmigosComponent } from './components/amigos/amigos.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { HeaderComponent } from './templates/header/header.component';
-import { FooterComponent } from './templates/footer/footer.component';
 import { ProfileTemplateComponent } from './templates/profile-template/profile-template.component';
 import { MsglistComponent } from './components/msglist/msglist.component';
 import { FormsModule } from '@angular/forms';
 import { ReactionsComponent } from './components/reactions/reactions.component';
+import { FooterComponent } from './templates/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +22,10 @@ import { ReactionsComponent } from './components/reactions/reactions.component';
     AmigosComponent,
     EventosComponent,
     HeaderComponent,
-    FooterComponent,
     ProfileTemplateComponent,
     MsglistComponent,
-    ReactionsComponent
+    ReactionsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
