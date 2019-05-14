@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './templates/home/home.component';
-import { HistoriasComponent } from './templates/historias/historias.component';
-import { AmigosComponent } from './templates/amigos/amigos.component';
-import { EventosComponent } from './templates/eventos/eventos.component';
+import { HomeComponent } from './components/home/home.component';
+import { HistoriasComponent } from './components/historias/historias.component';
+import { AmigosComponent } from './components/amigos/amigos.component';
+import { EventosComponent } from './components/eventos/eventos.component';
 import { HeaderComponent } from './templates/header/header.component';
 import { FooterComponent } from './templates/footer/footer.component';
 import { ProfileTemplateComponent } from './templates/profile-template/profile-template.component';
 import { MsglistComponent } from './components/msglist/msglist.component';
+import { FormsModule } from '@angular/forms';
+import { ReactionsComponent } from './components/reactions/reactions.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { MsglistComponent } from './components/msglist/msglist.component';
     HeaderComponent,
     FooterComponent,
     ProfileTemplateComponent,
-    MsglistComponent
+    MsglistComponent,
+    ReactionsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

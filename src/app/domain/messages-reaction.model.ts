@@ -1,9 +1,9 @@
 import { Users } from 'src/app/domain/user.model';
 import { Messages } from './messages.model';
 
-export class Reactions {
+export class MsgReactions {
     id: number;
     message: Messages;
-    reaction: Reactions;
+    reaction: MsgReactions;
     user: Users;
 }

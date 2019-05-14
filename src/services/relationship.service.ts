@@ -6,7 +6,7 @@ import { Relationship } from 'src/app/domain/relationship.model.ts';
 })
 export class RelationshipService {
 
-  constructor() { 
+  constructor() {
     let relationships:Relationship[] = [
       { id: 1, friend:{ id: 1, name: 'Ricardo', surname: 'Milos', nick: 'Sexy Man', birthday: new Date ('1977/11/11'), startdate: new Date('2003/02/05'), img:'../../../../../assets/user_avatar.jpg' }, otherFriend:{ id: 2, name: 'Jose', surname: 'José', nick: 'Amor', birthday: new Date ('1982/10/03'), startdate:new Date ('2008/02/01'), img:'../../../../../assets/jose.jpg'  }, pending:false},
       { id: 2, friend:{ id: 1, name: 'Ricardo', surname: 'Milos', nick: 'Sexy Man', birthday: new Date ('1977/11/11'), startdate: new Date('2003/02/05'), img:'../../../../../assets/user_avatar.jpg' }, otherFriend:{ id: 3, name: 'José María', surname: 'Aznar', nick: 'Sexy Man', birthday: new Date ('1953/2/25'), startdate: new Date('2010/04/10'), img:'../../../../../assets/aznar.jpg' }, pending:false},

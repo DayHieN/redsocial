@@ -1,5 +1,6 @@
-import { Messages } from './../../domain/messages.model';
 import { Component, OnInit } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-msglist',
@@ -8,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MsglistComponent implements OnInit {
 
- let messages:Messages[] = []
+  constructor() {
+
+  }
 
   ngOnInit() {
   }

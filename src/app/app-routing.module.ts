@@ -1,7 +1,7 @@
-import { EventosComponent } from './templates/eventos/eventos.component';
-import { AmigosComponent } from './templates/amigos/amigos.component';
-import { HistoriasComponent } from './templates/historias/historias.component';
-import { HomeComponent } from './templates/home/home.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { AmigosComponent } from './components/amigos/amigos.component';
+import { HistoriasComponent } from './components/historias/historias.component';
+import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
